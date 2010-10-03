@@ -1,0 +1,13 @@
+[1mdiff --git a/app/views/personas/index.html.erb b/app/views/personas/index.html.erb[m
+[1mindex 51705ad..38a213d 100644[m
+[1m--- a/app/views/personas/index.html.erb[m
+[1m+++ b/app/views/personas/index.html.erb[m
+[36m@@ -3,7 +3,7 @@[m
+ <table>[m
+   <tr>[m
+     <th>Nombres:</th>[m
+[31m-    <th>Apellido</th>[m
+[32m+[m[32m    <th>Apellido:</th>[m
+     <th>Bio</th>[m
+     <th>Activo</th>[m
+     <th></th>[m

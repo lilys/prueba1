@@ -3,9 +3,10 @@
 <table>
   <tr>
     <th>Nombres:</th>
-    <th>Apellido</th>
+    <th>Apellido:</th>
     <th>Bio</th>
     <th>Activo</th>
+	<th>Direccion:</th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,6 +18,7 @@
     <td><%= persona.apellido %></td>
     <td><%= persona.bio %></td>
     <td><%= persona.activo %></td>
+	<td><%=persona.direccion %></td>
     <td><%= link_to 'Show', persona %></td>
     <td><%= link_to 'Edit', edit_persona_path(persona) %></td>
     <td><%= link_to 'Destroy', persona, :confirm => 'Are you sure?', :method => :delete %></td>
